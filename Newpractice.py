@@ -22,5 +22,5 @@ if __name__ == '__main__':
         print('Test pass:ID found')
     except Exception as e:
         print('Exception found,format',format(e))
-        driver.quit()    
+        driver.close()    
     
